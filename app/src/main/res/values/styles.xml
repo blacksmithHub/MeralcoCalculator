@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tabs">
+        <item name = "android:gravity">center</item>
+        <item name = "android:background">@drawable/tab</item>
+        <item name = "android:textColor">#ffffff</item>
+        <item name = "android:textSize">10dp</item>
+        <item name = "android:textAllCaps">true</item>
+        <item name = "android:textStyle">bold</item>
+        <item name = "android:ems">10</item>
+    </style>
+
+    <style name="panel">
+        <item name = "android:background">@drawable/panel</item>
+    </style>
+
+    <style name="editText">
+        <item name = "android:background">@drawable/edit_text</item>
+    </style>
+
+</resources>
